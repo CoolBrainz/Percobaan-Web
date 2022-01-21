@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Comfortaa";
+}
+
+nav {
+    margin: 10px;
+    background-color: rgb(34, 58, 82);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+    border-radius: 10px;
+    height: 60px;
+}
+
+body {
+    background-color:#17202e;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+li:hover {
+    color:rgb(159, 207, 255);
+    background-color: #1e2d42;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
